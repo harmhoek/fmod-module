@@ -13,5 +13,9 @@
   },
   "author": "harm",
   "license": "MIT",
-  "dependencies": {}
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/harmhoek/fmod-module"
+  }
 }
