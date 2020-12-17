@@ -6,7 +6,8 @@
   "browser": {
     "fs": false,
     "path": false,
-    "os": false
+    "os": false,
+    "crypto": false
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
