@@ -1,0 +1,23 @@
+# Vendors
+node_modules/
+.madgerc
+.babelrc
+
+# Build
+platforms/
+plugins/
+www/
+dist/
+eeki/
+/npm-debug.log
+
+# Logs
+*.log
+.idea
+.vscode
+.eslintcache
+package-lock.json
+yarn.lock
+yarn.lock.json
+database.env
+report*

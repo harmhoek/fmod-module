@@ -1,0 +1,17 @@
+{
+  "name": "fmod-module",
+  "version": "1.0.3",
+  "description": "fmod as npm module. I really hope fmod makes a npm module themselves.",
+  "main": "fmodstudio.js",
+  "browser": {
+    "fs": false,
+    "path": false,
+    "os": false
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "harm",
+  "license": "MIT",
+  "dependencies": {}
+}
