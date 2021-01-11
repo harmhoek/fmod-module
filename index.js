@@ -3,10 +3,10 @@
 import FMODModule from "./fmodstudio.js";
 import { newFetchFunction } from "./newFetchFunction.js";
 
-export const FMODModule
-
 window.fetchWasm = newFetchFunction //needed for fmod wasm file loading on android devices
 WebAssembly.instantiateStreaming = undefined //probably needed for fmod wasm file loading on android devices
+
+export const FMODModule
 
 console.log("Hello World", FMODModule);
 
