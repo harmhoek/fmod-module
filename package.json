@@ -1,6 +1,6 @@
 {
   "name": "fmod-module",
-  "version": "1.0.6",
+  "version": "1.1.0",
   "description": "fmod as npm module. I really hope fmod makes a npm module themselves.",
   "main": "fmodstudio.js",
   "browser": {

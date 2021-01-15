@@ -1,7 +1,11 @@
 I hope FMOD releases their own npm module.
 
 QUICK GUIDE
-Put your .wasm file from fmod version 2.01.07 in your /assets/audio/ directory
+
+1. Put your .wasm file from fmod version 2.01.07 in your /assets/audio/ directory
+2. add these codes in fmodBanks.js
+   `window.fetchWasm = newFetchFunction //needed for fmod wasm file loading on android devices`
+   `WebAssembly.instantiateStreaming = undefined //probably needed for fmod wasm file loading on android devices`
 
 DETAILED GUIDE
 What I changed to get it to work:
